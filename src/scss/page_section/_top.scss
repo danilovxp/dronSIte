@@ -1,0 +1,35 @@
+.section__primary {
+  background: url("/img/bg_1.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  color: #ffffff;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 101px;
+  & .top__img {
+    margin-top: 35px;
+  }
+  & .top__description {
+    margin-top: 25.38px;
+    width: 324px;
+    height: 51px;
+    text-align: center;
+  }
+  & .top__social {
+    margin-top: 35px;
+    & .icon {
+      width: 40px;
+      height: 40px;
+      margin: 0 25px;
+    }
+  }
+}
+
+// .title__name {
+// }
